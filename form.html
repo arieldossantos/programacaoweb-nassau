@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário de cadastro</title>
+</head>
+<body>
+
+	<form id="formulario" action="https://httpbin.org/post" method="post">
+		<div class="item">
+			<label for="nome">Seu nome</label>
+			<input type="text" required name="nome" maxlength="256">
+		</div>
+
+		<div class="item">
+			<label for="email">Seu email</label>
+			<input type="email" required name="email">
+		</div>
+
+		<div class="item">
+			<label for="pass">Senha</label>
+			<input type="password" required name="pass">
+		</div>
+
+		<div class="item">
+			<label for="tel">Seu telefone</label>
+			<input type="tel" required name="tel">
+		</div>
+
+		<div class="item">
+			<label for="sexo">Sexo</label>
+			<div>
+				<input type="radio" value="Masculino" name="sexo"> Masculino
+				<input type="radio" value="Feminino" name="sexo"> Feminino
+				<input type="radio" value="Outro" name="sexo"> Outro
+			</div>
+		</div>
+
+		<div class="item">
+			<label for="cartao">Número do cartão</label>
+			<input type="text" required name="cartao" maxlength="16">
+		</div>
+
+		<div class="item">
+			<label for="date">Vencimento</label>
+			<input type="month" required name="date">
+		</div>
+
+		<div class="item">
+			<label for="ccv">Ccv</label>
+			<input type="text" required name="ccv" maxlength="4">
+		</div>
+
+		<input type="submit" value="Enviar">
+	</form>
+
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		#formulario {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.item {
+			margin: 20px;
+		}
+
+		input {
+			border-top: none;
+			border-left: none;
+		}
+
+	</style>
+</body>
+</html>

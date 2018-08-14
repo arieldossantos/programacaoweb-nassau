@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Título</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Header -->
+	<h1>Cabeçalho</h1>
+	<!-- Tabela -->
+	<table class="table table-hover">
+		<tr>
+			<th>
+				Imagem do cachorro
+			</th>
+			<th>
+				Adote esse cachorro
+			</th>
+		</tr>
+		<tr>
+			<td>
+				<img src="http://3.bp.blogspot.com/-j_cHGAooScA/T-unQsWvwjI/AAAAAAAAAaY/93e3prMqnnI/s1600/com+voc%C3%AAs+meu+cachorro+SKOLby.jpg">
+			</td>
+			<td>
+				<a href="http://www.caosemdono.com.br/" target="_blank">Clique aqui para adotar</a>
+			</td>
+		</tr>
+	</table>
+	<!-- Parágrafo -->
+	<p>
+		Já adotou o seu cachorro tomando <strong>SKOL</strong> hoje?
+	</p>
+	<!-- Listas -->
+	<ul>
+		<li>foda</li>
+		<li>fodase</li>
+		<li>fodase 2</li>
+	</ul>
+
+	<ol id="ol">
+	</ol>
+
+	<script type="text/javascript">
+		var ol = document.getElementById('ol');
+		for(var i = 0; i < 3; i++){
+			var li = document.createElement('li');
+			li.innerText = "Item " + (i + 1);
+			ol.appendChild(li);
+		}	
+	</script>
+</body>
+</html>
