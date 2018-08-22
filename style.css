@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Source+Sans+Pro');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+}
+h1 {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;;
+}
+.esquerda {
+	text-align: left;
+}
+.l {
+	color: #FF0000;
+}
+.g {
+	color: #ff7423;
+}
+.b {
+	color: #f7ef21;
+}
+.t {
+	color: #23c90a;
+}
+.q {
+	color: #0094ff;
+}
+.plus {
+	color: #b322f7;
+}
+#masculino {
+	color: #3d94ff;
+}
+#feminino {
+	color: #FF00F2;
+}
+#formulario {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+}
+.item {
+	margin: 20px;
+}
+input {
+	position: absolute;
+	border-top: none;
+	border-left: none;
+}
+label:after {
+	content: " *";
+	color: red;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="month"] {
+	right: 0;
+	width: 60%;
+}
+input[type="radio"] {
+	padding: 3px;
+}
+.label {
+	margin-left: 35px;
+}
+.sexo {
+	text-align: right;
+}
+.enviar {
+	text-align: center;
+	padding: 10px;
+	background-color: #2cacb7;
+	border: 1px solid #fff;
+	width: 52%;
+	left: 50%;
+	transform: translate(-50%);
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Hind', sans-serif;
+	text-shadow: currentColor;
+}
